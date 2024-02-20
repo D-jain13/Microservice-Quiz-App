@@ -2,9 +2,10 @@ package com.dhairya.questionservice.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 @Data
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class Response {
 
 	private Integer id;
